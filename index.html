@@ -2,13 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://t.me/CryptoGarageKeysBot">
     <title>Redirecting...</title>
     <script type="text/javascript">
-        window.location.href = "https://t.me/CryptoGarageKeysBot";
+        document.addEventListener("DOMContentLoaded", function() {
+            var link = document.createElement('a');
+            link.href = "https://t.me/CryptoGarageKeysBot";
+            link.textContent = "Перейдите на наш Telegram-канал";
+            link.style.fontSize = "20px";
+            link.style.display = "block";
+            link.style.textAlign = "center";
+            link.style.marginTop = "20%";
+            link.style.textDecoration = "none";
+            link.style.color = "#007BFF";
+            link.style.backgroundColor = "#f8f9fa";
+            link.style.padding = "10px";
+            link.style.borderRadius = "5px";
+            link.style.border = "1px solid #007BFF";
+
+            var container = document.createElement('div');
+            container.style.textAlign = "center";
+            container.style.padding = "50px";
+            container.appendChild(link);
+
+            document.body.appendChild(container);
+        });
     </script>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="https://t.me/CryptoGarageKeysBot">click here</a>.</p>
+    <p>Если вы не перенаправлены автоматически, <a href="https://t.me/CryptoGarageKeysBot">нажмите здесь</a>.</p>
 </body>
 </html>
